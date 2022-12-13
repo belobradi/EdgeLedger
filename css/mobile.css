@@ -1,0 +1,17 @@
+.ul-row li a {
+    padding: 0 10px;
+}
+
+.flex-table .row {
+    flex-direction: column;
+}
+
+#nav-bar {
+    height: 120px;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.team-content img {
+    width: 70%;
+}

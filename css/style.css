@@ -13,7 +13,7 @@ body {
 
 /* Header */
 
-header {
+.main-hero {
     background: 
         linear-gradient(
             rgba(0, 0, 0, 0.6), 
@@ -21,6 +21,16 @@ header {
         ),url(/img/home/showcase.jpg) 
         center center/cover;
     height: 100vh;
+}
+
+.blog-hero {
+    background: 
+        linear-gradient(
+            rgba(0, 0, 0, 0.6), 
+            rgba(0, 0, 0, 0.6)
+        ),url(/img/home/blog.jpg) 
+        center center/cover;
+    height: 30vh;
 }
 
 /* Menu bar */
@@ -63,6 +73,8 @@ header {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    text-align: center;
+    margin: 0 20px;
     height: 100%;
 }
 
@@ -78,6 +90,10 @@ header {
 }
 
 /* About */
+
+#about {
+    padding: 20px;
+}
 
 .box {
     text-align: center;
@@ -205,9 +221,25 @@ header {
 }
 
 .footer-content > div > a {
-    padding: 15px;
+    margin: 0 15px;
 }
 
 .footer-content > p {
-    margin-top: 15px;
+    margin-top: 20px;
+}
+
+.showcase-blog {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0 20px;
+    height: 100%;
+}
+
+.showcase-blog h1 {
+    font-size: 55px;
+    font-weight: 300;
+
 }

@@ -113,6 +113,10 @@ li {
     object-fit: cover;
 }
 
+.flex-reverse .row {
+    flex-direction: row-reverse;
+}
+
 .flex-pilar {
     display: flex;
     flex-direction: column;
