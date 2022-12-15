@@ -6,7 +6,7 @@
     flex-direction: column;
 }
 
-#nav-bar {
+.navbar {
     height: 120px;
     flex-direction: column;
     justify-content: space-around;

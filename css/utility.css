@@ -60,6 +60,15 @@ li {
     background: #0284d0;
 }
 
+.btn-light {
+    color: #333;
+    background: #f4f4f4;
+}
+
+.btn-dark {
+    background: #333;
+}
+
 .btn:hover {
     opacity: 0.9;
 }
@@ -133,4 +142,29 @@ li {
 
 .img-behave1:hover {
     opacity: 0.8;
+}
+
+/* Post */
+
+.post {
+    padding: 50px 30px;
+}
+
+.post h2 {
+    font-weight: 300;
+    font-size: 40px;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    border-bottom: #ccc solid 1px;
+}
+
+.post .meta {
+    margin-bottom: 30px;
+}
+
+.post img {
+    width: 300px;
+    display: block;
+    margin: 0 auto 30px;
+    border-radius: 50%;
 }

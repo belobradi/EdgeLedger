@@ -14,28 +14,22 @@ body {
 /* Header */
 
 .main-hero {
-    background: 
-        linear-gradient(
-            rgba(0, 0, 0, 0.6), 
-            rgba(0, 0, 0, 0.6)
-        ),url(/img/home/showcase.jpg) 
-        center center/cover;
+    background:
+        linear-gradient(rgba(0, 0, 0, 0.6),
+            rgba(0, 0, 0, 0.6)), url(/images/home/showcase.jpg) center center/cover;
     height: 100vh;
 }
 
 .blog-hero {
-    background: 
-        linear-gradient(
-            rgba(0, 0, 0, 0.6), 
-            rgba(0, 0, 0, 0.6)
-        ),url(/img/home/blog.jpg) 
-        center center/cover;
+    background:
+        linear-gradient(rgba(0, 0, 0, 0.6),
+            rgba(0, 0, 0, 0.6)), url(/images/home/blog.jpg) center center/cover;
     height: 30vh;
 }
 
 /* Menu bar */
 
-#nav-bar {
+.navbar {
     display: flex;
     background-color: #333;
     justify-content: space-between;
@@ -47,7 +41,11 @@ body {
     opacity: 0.8;
 }
 
-#nav-bar h1 {
+.navbar.top {
+    background: transparent;
+}
+
+.navbar h1 {
     font-weight: 400;
 }
 
@@ -208,7 +206,7 @@ body {
     padding: 5px;
     margin-bottom: 15px;
     border: none;
-} 
+}
 
 /* Footer */
 
@@ -220,11 +218,11 @@ body {
     height: 200px;
 }
 
-.footer-content > div > a {
+.footer-content>div>a {
     margin: 0 15px;
 }
 
-.footer-content > p {
+.footer-content>p {
     margin-top: 20px;
 }
 

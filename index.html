@@ -1,33 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://kit.fontawesome.com/9b7e8bf2d8.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/lightbox.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/utility.css">
     <link rel="stylesheet" href="css/mobile.css" media="screen and (max-width:780px)">
     <title>EdgeLedger | Welcome</title>
 </head>
+
 <body>
     <header class="main-hero">
-        <div id="nav-bar">
+        <div id="navbar" class="navbar top">
             <h1 class="logo txt-light">
                 <span class="txt-primary"><i class="fa-solid fa-book-open"></i> Edge</span>Ledger
             </h1>
             <ul class="ul-row txt-light">
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Cases</a></li>
-                <li><a href="#">Blog</a></li>
-                <li><a href="#">Contact</a></li>
+                <li><a href="index.html#home">Home</a></li>
+                <li><a href="index.html#about">About</a></li>
+                <li><a href="index.html#cases">Cases</a></li>
+                <li><a href="index.html#blog">Blog</a></li>
+                <li><a href="index.html#contact">Contact</a></li>
             </ul>
         </div>
-        <div class="showcase txt-light">
+        <div id="home" class="showcase txt-light">
             <h1>The Sky is The Limit</h1>
             <p>We provide world class financial assistance</p>
-            <a href="#" class="btn">Read More</a>
+            <a href="index.html#about" class="btn">Read More</a>
         </div>
     </header>
     <section id="about" class="flex-table">
@@ -53,14 +56,16 @@
         <div class="row">
             <div class="column">
                 <div class="column-content">
-                    <img src="/img/home/people.jpg" alt="">
+                    <img src="/images/home/people.jpg" alt="">
                 </div>
             </div>
             <div class="column bg-primary txt-light">
                 <div class="column-content flex-pilar">
                     <h4>What you are looking for</h4>
                     <h2>We provide bespoke solutions</h2>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Saepe optio reiciendis impedit libero est consectetur cum. Ab dolore amet consequatur, voluptatem placeat magni omnis modi voluptas iusto ducimus et pariatur.</p>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Saepe optio reiciendis impedit libero
+                        est consectetur cum. Ab dolore amet consequatur, voluptatem placeat magni omnis modi voluptas
+                        iusto ducimus et pariatur.</p>
                     <a class="btn btn-outline" href="#">Read More</a>
                 </div>
             </div>
@@ -75,30 +80,46 @@
         <div class="flex-table">
             <div class="row">
                 <div class="column padding-5">
-                    <img class="column padding-5 img-behave1" src="img/cases/cases1.jpg" alt="">
+                    <a href="/images/cases/cases1.jpg" data-lightbox="cases">
+                        <img class="img-behave1" src="/images/cases/cases1.jpg" alt="">
+                    </a>
                 </div>
                 <div class="column padding-5">
-                    <img class="img-behave1" src="img/cases/cases3.jpg" alt="">
+                    <a href="/images/cases/cases3.jpg" data-lightbox="cases">
+                        <img class="img-behave1" src="/images/cases/cases3.jpg" alt="">
+                    </a>
                 </div>
                 <div class="column padding-5">
-                    <img class="img-behave1" src="img/cases/cases5.jpg" alt="">
+                    <a href="/images/cases/cases5.jpg" data-lightbox="cases">
+                        <img class="img-behave1" src="/images/cases/cases5.jpg" alt="">
+                    </a>
                 </div>
                 <div class="column padding-5">
-                    <img class="img-behave1" src="img/cases/cases7.jpg" alt="">
+                    <a href="/images/cases/cases7.jpg" data-lightbox="cases">
+                        <img class="img-behave1" src="/images/cases/cases7.jpg" alt="">
+                    </a>
                 </div>
             </div>
             <div class="row">
                 <div class="column padding-5">
-                    <img class="img-behave1" src="img/cases/cases2.jpg" alt="">
+                    <a href="/images/cases/cases2.jpg" data-lightbox="cases">
+                        <img class="img-behave1" src="/images/cases/cases2.jpg" alt="">
+                    </a>
                 </div>
                 <div class="column padding-5">
-                    <img class="img-behave1" src="img/cases/cases4.jpg" alt="">
+                    <a href="/images/cases/cases4.jpg" data-lightbox="cases">
+                        <img class="img-behave1" src="/images/cases/cases4.jpg" alt="">
+                    </a>
                 </div>
                 <div class="column padding-5">
-                    <img class="img-behave1" src="img/cases/cases6.jpg" alt="">
+                    <a href="/images/cases/cases6.jpg" data-lightbox="cases">
+                        <img class="img-behave1" src="/images/cases/cases6.jpg" alt="">
+                    </a>
                 </div>
                 <div class="column padding-5">
-                    <img class="img-behave1" src="img/cases/cases8.jpg" alt="">
+                    <a href="/images/cases/cases8.jpg" data-lightbox="cases">
+                        <img class="img-behave1" src="/images/cases/cases8.jpg" alt="">
+                    </a>
                 </div>
             </div>
         </div>
@@ -107,14 +128,16 @@
         <div class="row">
             <div class="column">
                 <div class="column-content">
-                    <img src="/img/home/blog.jpg" alt="">
+                    <img src="/images/home/blog.jpg" alt="">
                 </div>
             </div>
             <div class="column">
                 <div class="column-content bg-secondary flex-pilar txt-light">
                     <h4>April 16 2020</h4>
                     <h2>Blog Post One</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse quisquam voluptatibus enim perferendis voluptatum, animi odio, voluptas debitis nisi ducimus laboriosam neque, soluta a fuga rem repudiandae saepe? Explicabo, veritatis!</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse quisquam voluptatibus enim
+                        perferendis voluptatum, animi odio, voluptas debitis nisi ducimus laboriosam neque, soluta a
+                        fuga rem repudiandae saepe? Explicabo, veritatis!</p>
                     <a href="blog.html" class="btn btn-outline btn-secondary">Read Out Blog</a>
                 </div>
             </div>
@@ -130,21 +153,21 @@
             <div class="row">
                 <div class="column">
                     <div class="team-content">
-                        <img src="/img/team/person1.jpg" alt="">
+                        <img src="/images/team/person1.jpg" alt="">
                         <h2>John Doe</h2>
                         <p>President</p>
                     </div>
                 </div>
                 <div class="column">
                     <div class="team-content">
-                        <img src="/img/team/person2.jpg" alt="">
+                        <img src="/images/team/person2.jpg" alt="">
                         <h2>Jane Doe</h2>
                         <p>Vice President</p>
                     </div>
                 </div>
                 <div class="column">
                     <div class="team-content">
-                        <img src="/img/team/person3.jpg" alt="">
+                        <img src="/images/team/person3.jpg" alt="">
                         <h2>Steve Smith</h2>
                         <p>Marketing Head</p>
                     </div>
@@ -156,7 +179,7 @@
         <div class="row">
             <div class="column">
                 <div class="column-content">
-                    <img src="/img/home/contact.jpg" alt="">
+                    <img src="/images/home/contact.jpg" alt="">
                 </div>
             </div>
             <div class="column">
@@ -183,5 +206,39 @@
             <p>Copyright &copy; 2022 - EdgeLedger</p>
         </div>
     </footer>
+
+    <script src="https://code.jquery.com/jquery-3.6.2.min.js"
+        integrity="sha256-2krYZKh//PcchRtd+H+VyyQoZ/e3EcrkxhM8ycwASPA=" crossorigin="anonymous"></script>
+
+    <script src="/js/lightbox.js"></script>
+    <script>
+        const navbar = document.getElementById('navbar');
+
+        window.onscroll = function () {
+            if (window.pageYOffset > window.innerHeight - 70) {
+                navbar.classList.remove('top');
+            } else {
+                navbar.classList.add('top')
+            }
+        };
+
+
+        // Smooth Scrolling
+        $('#navbar a, .btn').on('click', function (e) {
+            if (this.hash !== '') {
+                e.preventDefault();
+
+                const hash = this.hash;
+
+                $('html, body').animate(
+                    {
+                        scrollTop: $(hash).offset().top - 70,
+                    },
+                    800
+                );
+            }
+        });
+    </script>
 </body>
+
 </html>
